@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mosharraf Portfolio</title>
+  <meta name="description" content="Mosharraf's personal portfolio — frontend projects, skills and contact." />
+
+  <!-- 🔗 CSS ফাইল যুক্ত -->
+  <link rel="stylesheet" href="CSS/style.css" />
+</head>
+
+<body>
+  <!-- 🧭 হেডার / নেভিগেশন -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- লোগো বা নাম -->
+      <a class="brand" href="#">Mosharraf</a>
+
+      <!-- মেনু লিংকগুলো -->
+      <nav class="nav" id="nav">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- মোবাইল মেনু বাটন -->
+      <button class="nav-toggle" id="navToggle" aria-label="open menu">☰</button>
+    </div>
+  </header>
+
+  <!-- 🌟 মেইন কনটেন্ট শুরু -->
+  <main>
+
+    <!-- 🏠 HERO SECTION (ইনট্রো অংশ) -->
+    <section id="home" class="hero section">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1 class="reveal">Hi, I'm <span class="accent">Mosharraf</span></h1>
+          <p class="lead reveal delay-1" style="color: rgb(235, 243, 7);">
+            I make websites that people love to use.
+          </p>
+
+          <!-- CTA বোতাম -->
+          <div class="hero-ctas reveal delay-2">
+            <a class="btn" href="#projects">See Projects</a>
+            <a class="btn alt" href="#contact">Hire Me</a>
+          </div>
+        </div>
+
+        <!-- প্রোফাইল ছবি -->
+        <div class="hero-right reveal delay-3">
+          <div class="profile-card">
+            <img src="image/Mosharraf.jpg" alt="Mosharraf portrait">
+            <div class="profile-body">
+              <h3>Mosharraf Hossen</h3>
+              <p>Frontend Developer — HTML • CSS • JavaScript</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 💼 PROJECTS SECTION -->
+      <section id="projects" class="projects section">
+  <div class="container">
+    <h2 class="section-title reveal">Projects</h2>
+    <p class="lead reveal delay-1">A few things I’ve built recently — take a look!
+</p>
+
+    <!-- প্রজেক্ট কার্ডগুলোর গ্রিড -->
+    <div class="grid">
+      <!-- প্রজেক্ট ১ -->
+      <article class="project card reveal delay-2">
+        <img src="image/Landing Page.jpeg"Project 1">
+        <div class="project-info">
+          <h3>Landing Page</h3>
+          <p>Responsive marketing landing with smooth animations.</p>
+          <a class="link" href="#">Live →</a>
+        </div>
+      </article>
+
+      <!-- প্রজেক্ট ২ -->
+      <article class="project card reveal delay-3">
+        <img src="image/Dashboard UI.jpg" alt="Project 2">
+        <div class="project-info">
+          <h3>Dashboard UI</h3>
+          <p>Interactive charts and filters made accessible.</p>
+          <a class="link" href="#">Live →</a>
+        </div>
+      </article>
+
+      <!-- প্রজেক্ট ৩ -->
+      <article class="project card reveal delay-4">
+        <img src="image/Portfolio CMS.avif" alt="Project 3">
+        <div class="project-info">
+          <h3>Portfolio CMS</h3>
+          <p>Headless CMS integrated portfolio website.</p>
+          <a class="link" href="#">Live →</a>
+        </div>
+      </article>
+
+      <!-- প্রজেক্ট ৪ -->
+      <article class="project card reveal delay-5">
+        <img src="image/E-Commerce Store.jpg" alt="Project 4">
+        <div class="project-info">
+          <h3>E-Commerce Store</h3>
+          <p>Online shop with product filters, cart, and checkout page.</p>
+          <a class="link" href="#">Live →</a>
+        </div>
+      </article>
+
+      <!-- প্রজেক্ট ৫ -->
+      <article class="project card reveal delay-6">
+        <img src="image/weather app.jpg" alt="Project 5">
+        <div class="project-info">
+          <h3>Weather App</h3>
+          <p>Real-time weather data fetched using OpenWeather API.</p>
+          <a class="link" href="#">Live →</a>
+        </div>
+      </article>
+
+      <!-- প্রজেক্ট ৬ -->
+      <article class="project card reveal delay-7">
+        <img src="image/To-Do App.png" alt="Project 6">
+        <div class="project-info">
+          <h3>To-Do App</h3>
+          <p>Task management app with localStorage support and filters.</p>
+          <a class="link" href="#">Live →</a>
+        </div>
+      </article>
+
+      <!-- প্রজেক্ট ৭ -->
+      <article class="project card reveal delay-8">
+        <img src="image/Blog Website.png" alt="Project 7">
+        <div class="project-info">
+          <h3>Blog Website</h3>
+          <p>Personal blog built with dynamic post loading and comments.</p>
+          <a class="link" href="#">Live →</a>
+        </div>
+      </article>
+
+      <!-- প্রজেক্ট ৮ -->
+      <article class="project card reveal delay-9">
+        <img src="image/Restaurant Website.png" alt="Project 8">
+        <div class="project-info">
+          <h3>Restaurant Website</h3>
+          <p>Menu showcase website with booking and review features.</p>
+          <a class="link" href="#">Live →</a>
+        </div>
+      </article>
+
+      <!-- প্রজেক্ট ৯ -->
+      <article class="project card reveal delay-10">
+        <img src="image/Travel Agency.jpg" alt="Project 9">
+        <div class="project-info">
+          <h3>Travel Agency</h3>
+          <p>Responsive travel booking page with location-based packages.</p>
+          <a class="link" href="#">Live →</a>
+        </div>
+      </article>
+
+      <!-- প্রজেক্ট ১০ -->
+      <article class="project card reveal delay-11">
+        <img src="image/Music Player.png" alt="Project 10">
+        <div class="project-info">
+          <h3>Music Player</h3>
+          <p>Modern web music player with playlist and controls.</p>
+          <a class="link" href="#">Live →</a>
+        </div>
+      </article>
+
+      <!-- প্রজেক্ট ১১ -->
+      <article class="project card reveal delay-12">
+        <img src="image/Calculator App.jpg" alt="Project 11">
+        <div class="project-info">
+          <h3>Calculator App</h3>
+          <p>Simple calculator app with clean UI and keyboard support.</p>
+          <a class="link" href="#">Live →</a>
+        </div>
+      </article>
+
+      <!-- প্রজেক্ট ১২ -->
+      <article class="project card reveal delay-13">
+        <img src="image/Landing Page.jpeg" alt="Project 12">
+        <div class="project-info">
+          <h3>Login & Signup Form</h3>
+          <p>Secure authentication form with validation and animation.</p>
+          <a class="link" href="#">Live →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" class="testimonials section">
+  <div class="container">
+    <h2 class="section-title reveal">Trusted by Top Brands</h2>
+    <p class="lead reveal delay-1">Our projects have been recognized by leading companies around the globe.</p>
+
+    <!-- লোগোগুলোর গ্রিড -->
+    <div class="logo-grid">
+      <div class="logo-item reveal delay-2">
+        <img src="image/Webflow.webp" alt="Webflow">
+      </div>
+      <div class="logo-item reveal delay-3">
+        <img src="image/Facebook.png" alt="Facebook">
+      </div>
+      <div class="logo-item reveal delay-4">
+        <img src="image/google.webp" alt="Google">
+      </div>
+      <div class="logo-item reveal delay-5">
+        <img src="image/youtube.webp" alt="YouTube">
+      </div>
+      <div class="logo-item reveal delay-6">
+        <img src="image/twitter.webp" alt="Twitter">
+      </div>
+      <div class="logo-item reveal delay-7">
+        <img src="image/spotify.jpeg" alt="Spotify">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- 🙋 ABOUT SECTION -->
+    <section id="about" class="about section">
+      <div class="container about-inner">
+        <!-- বাম পাশে টেক্সট -->
+        <div class="about-text reveal">
+          <h2 class="section-title">About Me</h2>
+          <p>
+            I am a frontend developer focused on building fast, accessible, and maintainable interfaces.
+            I love solving UI problems and making delightful user experiences.
+          </p>
+          <p>
+            I work with HTML, modern CSS (Flexbox, Grid) and vanilla JavaScript.
+            I also use tools like Git and build pipelines when needed.
+          </p>
+        </div>
+
+        <!-- ডান পাশে অ্যাভাটার ছবি -->
+        <div class="about-avatar reveal delay-1">
+          <img src="image/abouter.png" alt="avatar">
+        </div>
+      </div>
+    </section>
+
+    <!-- ⚙️ SKILLS SECTION -->
+    <section id="skills" class="skills section">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <div class="skill-list reveal delay-1">
+
+          <!-- প্রতিটি স্কিলের জন্য প্রগ্রেস বার -->
+          <div class="skill">
+            <h4>HTML</h4>
+            <div class="bar"><span style="width:95%"></span></div>
+          </div>
+
+          <div class="skill">
+            <h4>CSS</h4>
+            <div class="bar"><span style="width:90%"></span></div>
+          </div>
+
+          <div class="skill">
+            <h4>JavaScript</h4>
+            <div class="bar"><span style="width:80%"></span></div>
+          </div>
+
+          <div class="skill">
+            <h4>Responsive Design</h4>
+            <div class="bar"><span style="width:92%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 📩 CONTACT SECTION -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+        <p class="lead reveal delay-1">Looking for a frontend developer? Reach out and let’s collaborate.</p>
+
+        <!-- যোগাযোগ ফর্ম -->
+        <form id="contactForm" class="contact-form reveal delay-2" novalidate>
+          <div class="row">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+          <button class="btn" type="submit">Send Message</button>
+          <p id="formMsg" class="form-msg" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ⚓ FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Mosharraf Hossen</p>
+    </div>
+  </footer>
+
+  <!-- 📜 JavaScript ফাইল যুক্ত -->
+  <script src="Js/custom.js"></script>
+</body>
+</html>
